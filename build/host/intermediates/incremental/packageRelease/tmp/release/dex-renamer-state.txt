@@ -1,0 +1,7 @@
+#Tue Aug 31 13:24:21 IST 2021
+base.1=E\:\\App_Development\\Flutter_projects\\to_do\\build\\host\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
+path.1=classes2.dex
+base.0=E\:\\App_Development\\Flutter_projects\\to_do\\build\\host\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

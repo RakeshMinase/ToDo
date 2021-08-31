@@ -1,0 +1,153 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.to_do.host"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml
+10
+11    <!--
+12         The INTERNET permission is required for development. Specifically,
+13         flutter needs it to communicate with the running application
+14         to allow setting breakpoints, to provide hot reload, etc.
+15    -->
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:9:5-66
+16-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:9:22-64
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:9:5-66
+17-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:9:22-64
+18    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+19    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e0ac179dac76d9f37c7e90e9aab030c2\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:5-79
+20-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e0ac179dac76d9f37c7e90e9aab030c2\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:13:22-76
+21
+22    <application
+22-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:11:5-38:19
+23        android:name="androidx.multidex.MultiDexApplication"
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\7feeda44582989ec8d71e25a78cadf3d\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:icon="@mipmap/ic_launcher"
+25-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:13:9-43
+26        android:label="to_do" >
+26-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:12:9-30
+27        <activity
+27-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:14:9-32:20
+28            android:name="com.example.to_do.host.MainActivity"
+28-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:15:13-41
+29            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+29-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:18:13-163
+30            android:hardwareAccelerated="true"
+30-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:19:13-47
+31            android:launchMode="singleTop"
+31-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:16:13-43
+32            android:theme="@style/LaunchTheme"
+32-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:17:13-47
+33            android:windowSoftInputMode="adjustResize" >
+33-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:20:13-55
+34
+35            <!--
+36                 This keeps the window background of the activity showing
+37                 until Flutter renders its first frame. It can be removed if
+38                 there is no splash screen (such as the default splash screen
+39                 defined in @style/LaunchTheme).
+40            -->
+41            <meta-data
+41-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:25:13-27:40
+42                android:name="io.flutter.app.android.SplashScreenUntilFirstFrame"
+42-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:26:17-82
+43                android:value="true" />
+43-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:27:17-37
+44
+45            <intent-filter>
+45-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:28:13-31:29
+46                <action android:name="android.intent.action.MAIN" />
+46-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:29:17-68
+46-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:29:25-66
+47
+48                <category android:name="android.intent.category.LAUNCHER" />
+48-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:30:17-76
+48-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:30:27-74
+49            </intent-filter>
+50        </activity>
+51        <!--
+52             Don't delete the meta-data below.
+53             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+54        -->
+55        <meta-data
+55-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:35:9-37:33
+56            android:name="flutterEmbedding"
+56-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:36:13-44
+57            android:value="2" />
+57-->E:\App_Development\Flutter_projects\to_do\.android\app\src\main\AndroidManifest.xml:37:13-30
+58        <meta-data
+58-->[:flutter] E:\App_Development\Flutter_projects\to_do\.android\Flutter\build\intermediates\library_manifest\release\AndroidManifest.xml:16:9-18:38
+59            android:name="flutterProjectType"
+59-->[:flutter] E:\App_Development\Flutter_projects\to_do\.android\Flutter\build\intermediates\library_manifest\release\AndroidManifest.xml:17:13-46
+60            android:value="module" />
+60-->[:flutter] E:\App_Development\Flutter_projects\to_do\.android\Flutter\build\intermediates\library_manifest\release\AndroidManifest.xml:18:13-35
+61
+62        <service
+62-->[:cloud_firestore] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-2.5.1\android\build\intermediates\library_manifest\release\AndroidManifest.xml:8:9-12:19
+63            android:name="com.google.firebase.components.ComponentDiscoveryService"
+63-->[:cloud_firestore] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-2.5.1\android\build\intermediates\library_manifest\release\AndroidManifest.xml:8:18-89
+64            android:directBootAware="true"
+64-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+65            android:exported="false" >
+65-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e0ac179dac76d9f37c7e90e9aab030c2\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:19:13-37
+66            <meta-data
+66-->[:cloud_firestore] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-2.5.1\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+67                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
+67-->[:cloud_firestore] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-2.5.1\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:17-134
+68                android:value="com.google.firebase.components.ComponentRegistrar" />
+68-->[:cloud_firestore] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\cloud_firestore-2.5.1\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+69            <meta-data
+69-->[:firebase_core] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\release\AndroidManifest.xml:9:13-11:85
+70                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+70-->[:firebase_core] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\release\AndroidManifest.xml:10:17-124
+71                android:value="com.google.firebase.components.ComponentRegistrar" />
+71-->[:firebase_core] E:\Appdev\flutter\.pub-cache\hosted\pub.dartlang.org\firebase_core-1.6.0\android\build\intermediates\library_manifest\release\AndroidManifest.xml:11:17-82
+72            <meta-data
+72-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e0ac179dac76d9f37c7e90e9aab030c2\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:20:13-22:85
+73                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+73-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e0ac179dac76d9f37c7e90e9aab030c2\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:21:17-111
+74                android:value="com.google.firebase.components.ComponentRegistrar" />
+74-->[com.google.firebase:firebase-firestore:23.0.3] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e0ac179dac76d9f37c7e90e9aab030c2\jetified-firebase-firestore-23.0.3\AndroidManifest.xml:22:17-82
+75        </service>
+76
+77        <provider
+77-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+78            android:name="com.google.firebase.provider.FirebaseInitProvider"
+78-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+79            android:authorities="com.example.to_do.host.firebaseinitprovider"
+79-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+80            android:directBootAware="true"
+80-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+81            android:exported="false"
+81-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+82            android:initOrder="100" />
+82-->[com.google.firebase:firebase-common:20.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\cf44503f512bd01edbb9a42565c54f02\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+83
+84        <activity
+84-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\38294c7ebeca0695b8b14bd36298dc2f\jetified-play-services-base-17.0.0\AndroidManifest.xml:23:9-26:75
+85            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+85-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\38294c7ebeca0695b8b14bd36298dc2f\jetified-play-services-base-17.0.0\AndroidManifest.xml:24:13-79
+86            android:exported="false"
+86-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\38294c7ebeca0695b8b14bd36298dc2f\jetified-play-services-base-17.0.0\AndroidManifest.xml:25:13-37
+87            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+87-->[com.google.android.gms:play-services-base:17.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\38294c7ebeca0695b8b14bd36298dc2f\jetified-play-services-base-17.0.0\AndroidManifest.xml:26:13-72
+88
+89        <meta-data
+89-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e177543937edddeee5b40a41d3c637af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+90            android:name="com.google.android.gms.version"
+90-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e177543937edddeee5b40a41d3c637af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+91            android:value="@integer/google_play_services_version" />
+91-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\Rakesh\.gradle\caches\transforms-2\files-2.1\e177543937edddeee5b40a41d3c637af\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+92    </application>
+93
+94</manifest>

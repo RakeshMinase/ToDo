@@ -1,0 +1,25 @@
+com.example.to_do.R$id
+io.flutter.plugins.GeneratedPluginRegistrant: void registerWith(io.flutter.embedding.engine.FlutterEngine)
+com.example.to_do.R: R()
+com.example.to_do.R$dimen
+com.example.to_do.R$string: R$string()
+com.example.to_do.R$attr
+com.example.to_do.R$string
+com.example.to_do.R$color
+com.example.to_do.R$style
+com.example.to_do.R$id: R$id()
+com.example.to_do.R$color: R$color()
+com.example.to_do.R$attr: R$attr()
+com.example.to_do.R$styleable
+com.example.to_do.R$integer: R$integer()
+com.example.to_do.R
+com.example.to_do.R$integer
+com.example.to_do.R$layout: R$layout()
+io.flutter.plugins.GeneratedPluginRegistrant
+com.example.to_do.R$style: R$style()
+com.example.to_do.R$styleable: R$styleable()
+com.example.to_do.R$dimen: R$dimen()
+io.flutter.plugins.GeneratedPluginRegistrant: GeneratedPluginRegistrant()
+com.example.to_do.R$layout
+com.example.to_do.R$drawable
+com.example.to_do.R$drawable: R$drawable()

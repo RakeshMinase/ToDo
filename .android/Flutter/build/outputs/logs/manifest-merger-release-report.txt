@@ -1,0 +1,59 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+	package
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:4:5-51
+	android:versionCode
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:1-16:12
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:5:3-64
+	android:name
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:5:20-62
+application
+ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:6:3-15:17
+	tools:node
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:6:16-34
+meta-data#flutterProjectType
+ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:7:5-9:32
+	android:value
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:9:7-29
+	android:name
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:8:7-40
+meta-data#flutterEmbedding
+ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:12:7-14:31
+	android:value
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:14:11-28
+	android:name
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml:13:11-42
+uses-sdk
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+		ADDED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml
+		INJECTED from E:\App_Development\Flutter_projects\to_do\.android\Flutter\src\main\AndroidManifest.xml

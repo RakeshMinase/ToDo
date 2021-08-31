@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "E:\\App_Development\\Flutter_projects\\to_do\\build\\host\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "E:\\App_Development\\Flutter_projects\\to_do\\.android\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "E:\\App_Development\\Flutter_projects\\to_do\\build\\host\\intermediates\\res\\merged\\release\\drawable_launch_background.xml.flat",
+        "source": "E:\\App_Development\\Flutter_projects\\to_do\\.android\\app\\src\\main\\res\\drawable\\launch_background.xml"
+    }
+]
